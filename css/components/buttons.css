@@ -5,9 +5,12 @@
     padding: 18px 20px;
     margin-right: 0;
     transition: transform 100ms cubic-bezier(0.165, 0.84, 0.44, 1);
+    text-decoration: none;
+    color: white;
 }
 .button:hover {
     transform: scale(1.08);
 }
+
 
     

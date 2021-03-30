@@ -1,4 +1,4 @@
-a {
+.main-action {
     display: inline-flex;
     align-items: center;
     color: #FFFFFF;
@@ -9,7 +9,7 @@ a {
     margin-right: 30px;
 }
 
-a.point::before {
+.main-action::before {
     content: "";
     background-color: #98E2E1;
     width: 10px;
