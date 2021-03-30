@@ -9,7 +9,7 @@ a {
     margin-right: 30px;
 }
 
-a::before {
+a.point::before {
     content: "";
     background-color: #98E2E1;
     width: 10px;
