@@ -9,3 +9,11 @@
 .box h1 {
     margin-bottom: 28px;
 }
+
+.box2 {
+    display: inline-flex;
+    background-color: #E96191;
+    box-shadow: 10px 10px 0 #fff;
+    text-align: center;
+    padding: 100px 100px;
+}
