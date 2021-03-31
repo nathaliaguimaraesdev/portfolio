@@ -29,6 +29,7 @@
         <link rel="stylesheet" href="css/components/footer.css">
         <link rel="stylesheet" href="css/components/main-label.css">
         <link rel="stylesheet" href="css/components/main-input.css">
+        <link rel="stylesheet" href="css/components/main-form.css">
         <title>Nathália Guimarães</title>
     </head>
     <body>
@@ -125,13 +126,14 @@
             </section>
         </section>
 
-        <form action="">
+        <form class="main-form">
+            <legend class="main-title -second">Contatos</legend>
             <label class="main-label" for="name">Nome</Label>
-            <input class="main-input" id="name" type="text">
+            <input class="main-input" id="name" type="text" required>
             <label class="main-label" for="email">Email</Label>
-            <input class="main-input" id="email" type="email" name="" id="">
+            <input class="main-input" id="email" type="email" required>
             <label class="main-label" for="message">Mensagem</label>
-            <textarea class="main-input -textarea" id="message"></textarea>
+            <textarea class="main-input -textarea" id="message" required></textarea>
             <button class="button -full" type="submit">Enviar</button>
             
         </form>
