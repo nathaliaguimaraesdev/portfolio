@@ -16,3 +16,6 @@
     background-color: black;
 }
 
+.carousel .items-carousel {
+    transition: transform 100ms ease-in-out;
+}
