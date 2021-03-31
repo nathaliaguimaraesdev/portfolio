@@ -12,5 +12,7 @@
     transform: scale(1.08);
 }
 
-
+.button.-full {
+    width: 100%;
+}
     
