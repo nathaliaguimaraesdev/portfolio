@@ -1,0 +1,13 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer .social {
+    margin-right: 20px;
+    margin-left: 20px;
+
+}

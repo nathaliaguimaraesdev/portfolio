@@ -10,3 +10,10 @@
     text-shadow: none;
     text-align: center;
 }  
+
+.main-title.-ano {
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 20px;
+    color: #89C7C6;
+    text-shadow: 3.33px 3.33px 0px #000000;
+}

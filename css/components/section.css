@@ -12,3 +12,7 @@
 .section.-bgBlack {
     background-color: #000;
 }
+
+.section.-borderblack {
+    border-color: #000;
+}

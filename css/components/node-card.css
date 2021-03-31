@@ -1,0 +1,26 @@
+.node-card {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+}
+
+.node-card .title {
+    font-size: 25px;
+    font-weight: 400px;
+    margin-bottom: 30px;
+    color: #89C7C6;
+}
+
+.node-card::before {
+    content: '';
+    box-sizing: border-box;
+    width: 64px;
+    border-top: 3px dashed #000;
+    transform: rotate(90deg) translateX(62%);
+    bottom: 140px;
+   
+    
+}
+

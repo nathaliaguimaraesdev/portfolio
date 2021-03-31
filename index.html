@@ -22,6 +22,12 @@
         <link rel="stylesheet" href="css/components/wrapper-skill.css">
         <link rel="stylesheet" href="css/components/card-project.css">
         <link rel="stylesheet" href="css/components/wrapper-card.css">
+        <link rel="stylesheet" href="css/components/main-description.css">
+        <link rel="stylesheet" href="css/components/button-arrow.css">
+        <link rel="stylesheet" href="css/components/node-card.css">
+        <link rel="stylesheet" href="css/components/carousel.css">
+        <link rel="stylesheet" href="css/components/footer.css">
+        <link rel="stylesheet" href="css/components/main-label.css">
         <title>Nathália Guimarães</title>
     </head>
     <body>
@@ -90,6 +96,57 @@
                 </a>
             </div>
         </section>
-    
+        <section class="section -borderblack">
+            <h2 class="main-title -second">Sobre</h2>
+            <p class="main-description"> Tenho 22 anos, possuo facilidade de aprender e principalmente sou muito dedicada à aquilo que gosto e quero fazer. No 4º semestre de Análise e Desenvolvimento de Sistemas, busco aprimorar meus conhecimentos desenvolvendo projetos como esse, meu portfólio, feito com o auxílio das vídeo aulas de HTML+CSS do @MarcoBrunoDev e aprimorado por mim. Nesse portfólio estou disponibilizando meu currículo e você pode entrar em contato comigo também na seção abaixo. Até logo. </p>
+                        
+            <section class="carousel">
+                <button class="button-arrow -left"><span class="content">Voltar</span></button>
+                <div class="items-carousel">
+                    <figure class="node-card">
+                        <figcaption class="main-title -ano">2015</figcaption>
+                        <img src="img/incoterm-logo.jpg" alt="logo da incoterm">
+                    </figure>
+                    <figure class="node-card">
+                        <figcaption class="main-title -ano">2016</figcaption>
+                        <img src="img/egr-logo.jpg" alt="logo da egr">
+                    </figure>
+                    <figure class="node-card">
+                        <figcaption class="main-title -ano">2019</figcaption>
+                        <img src="img/daer-logo.jpg" alt="logo do daer">
+                    </figure>
+                    <figure class="node-card">
+                        <figcaption class="main-title -ano">2020</figcaption>
+                        <img class="logo-work" src="img/logo-stas.jpg" alt="logo da stas">
+                    </figure>
+                </div>
+                <button class="button-arrow -right"><span class="content">Avançar</span></button>
+            </section>
+        </section>
+
+        <form action="">
+            <label class="main-label" for="name">Nome</Label>
+            <input id="name" type="text">
+            <label class="main-label" for="email">Email</Label>
+            <input id="email" type="email" name="" id="">
+            <label class="main-label" for="message">Mensagem</label>
+            <textarea id="message"></textarea>
+            <input type="submit" value="Enviar">
+            
+        </form>
+
+        <footer class="footer">
+            <a class="social" href="" target="_blank">
+                <img src="img/linkedin-icon.jpg" alt="">
+            </a>
+            <a class="social" href="" target="_blank">
+                <img src="img/github-icon.jpg" alt="">
+            </a>
+            <a class="social" href="https://api.whatsapp.com/send?phone=5551992591411" target="_blank">
+                <img src="img/wpp-icon.jpg" alt="">
+            </a>
+        </footer>
+
+        <script src="js/components/carousel.js"></script>
     </body>
 </html>
