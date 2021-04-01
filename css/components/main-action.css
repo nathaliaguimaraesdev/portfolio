@@ -17,4 +17,8 @@
     margin-right: 10px;
 }
 
-
+@media (max-width: 801px)  {
+    .main-action {
+        display: none;
+    }
+}
