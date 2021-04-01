@@ -1,6 +1,6 @@
 .wrapper-skill {
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
     max-width: 960;
     margin-left: auto;
     margin-right: auto;
