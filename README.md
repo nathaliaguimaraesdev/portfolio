@@ -1,5 +1,5 @@
 # nathaliadev
 
- _Meu portfólio em HTML+CSS criado com o auxílio do curso do @MarcoBrunodev.
+ _Meu portfólio em HTML+CSS criado com o auxílio do curso do @MarcoBrunodev._
 
-[Porfólio](https://nathaliaguimaraesdev.github.io/portfolio/)
+[Acesse aqui.](https://nathaliaguimaraesdev.github.io/portfolio/)
