@@ -1,5 +1,5 @@
 .wrapper-skill {
-    display: flex;
+    display: block;
     align-items: center;
     max-width: 960;
     margin-left: auto;
