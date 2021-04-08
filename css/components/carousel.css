@@ -3,6 +3,7 @@
     justify-content: space-around;
     position: relative;
     align-items: center;
+    overflow: hidden;
 }
 
 .carousel::after {
@@ -20,3 +21,4 @@
     transition: transform 100ms ease-in-out;
     
 }
+ 
