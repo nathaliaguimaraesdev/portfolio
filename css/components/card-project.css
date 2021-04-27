@@ -1,4 +1,4 @@
-.card-project {
+figure.card-project {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +9,17 @@
     margin-left: 0px;
 }
 
-.card-project.-blue {
-    background-color: #527B98;
+.logoguimaraes {
+    height: 200px;
 }
 
+@media screen and (max-width: 600px) {
+    figure.card-project {
+        width: 180px;
+    height: 180px;
+    }
+
+    .logoguimaraes {
+        height: 170px;
+    }
+  }

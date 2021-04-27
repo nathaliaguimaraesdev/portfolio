@@ -11,9 +11,16 @@
 
 .section.-bgBlack {
     background-color: #000;
+    height: 500px;
 }
 
 .section.-borderblack {
     border-color: #000;
 }
 
+@media screen and (max-width: 600px) {
+    .section.-bgBlack {
+        background-color: #000;
+        height: 400px;
+    }
+}
